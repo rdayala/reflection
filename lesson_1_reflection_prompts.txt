@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helps to see what are the changes that occurred from the earlier release. If you see that, 
+    there shouldn't be a difference with certain portion of your file and that portion appear in your diff, 
+    you can make out there are unwanted things that happened.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It helps to see how a file has evolved over a period of time. You can understand 
+    why certain code is added or removed and what features have introduced or optimized like that.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    By manually committing, you have control of what are the changes to be in the commit. It could accommodate
+    logical changes part of a commit. But you have to be careful, not to forget as you have made enough changes
+    related to one logical change. If you forget, it will be huge changes to commit later.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is more specifically for codes and some cases, the different files are related together and it makes sense
+    to commit them together so that they all make a functionality.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log : will give u the history commits on this repository
+	git diff --stat <old_commitID> <new_commitID>
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can always get back to old working state incase if I accidently make some mistakes and it changes the functionality.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to work with my projects using Git, so that I can track the changes.
